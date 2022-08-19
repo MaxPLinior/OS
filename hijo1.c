@@ -11,6 +11,7 @@ int main()
    id_proceso_padre = getppid();
  
    printf("Identificador del proceso padre : %d\n", id_proceso_padre);
+   printf("Identificador del ususario: %s\n",getlogin());
  
    return 0;
  
